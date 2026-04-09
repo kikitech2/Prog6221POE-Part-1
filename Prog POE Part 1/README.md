@@ -15,4 +15,4 @@ A C# console application developed to provide interactive cybersecurity awarenes
 4. Press ##F5## or click ##Start## to run the application.
 
 ## CI Workflow Status
-(Screenshot of Green Check Mark to be added here)
+<img width="938" height="615" alt="image" src="https://github.com/user-attachments/assets/8f35ee9a-ef5c-4e45-8c4c-268bbfe02921" />
