@@ -43,11 +43,11 @@ namespace CyberAwarenessBot
                 {
                     case "how are you?":
                         UIHelper.TypeMessage(" I am running smoothly and ready to help you secure your digital life!");
-                        Console.WriteLine("============================================================\n");
+                        Console.WriteLine("========================================================================================================================\n");
                         break;
                     case "what is your purpose?":
                         UIHelper.TypeMessage(" I am part of a national campaign to help South Africans identify and mitigate cyber threats.");
-                        Console.WriteLine("============================================================\n");
+                        Console.WriteLine("========================================================================================================================\n");
                         break;
                     case "phishing":
                         ShowPhishingAdvice();
@@ -72,7 +72,7 @@ namespace CyberAwarenessBot
         private void ShowMenu()
         {
             // This is the menu options to allow the user to interact with the chatbot.
-            Console.WriteLine("============================================================\n");
+            Console.WriteLine("========================================================================================================================\n");
             Console.WriteLine("\n You can ask me questions like...: ");
             Console.WriteLine(" - 'how are you?'");
             Console.WriteLine(" - 'What is your purpose?'");
@@ -80,8 +80,7 @@ namespace CyberAwarenessBot
             Console.WriteLine(" - 'Passwords' ( Safe practices)"); 
             Console.WriteLine(" - 'Browsing' ( Safe links)");
             Console.WriteLine(" -  Or type in 'Exit' whenever you want to close the program");
-            Console.WriteLine("============================================================\n");
-
+            Console.WriteLine("========================================================================================================================\n");
         }
         private void ShowPhishingAdvice()
         {
