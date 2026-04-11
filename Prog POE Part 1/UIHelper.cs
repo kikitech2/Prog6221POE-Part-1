@@ -23,6 +23,7 @@ namespace CyberAwarenessBot
         }
         public static void DisplayLogo()
         {
+            // Here is the chatbots visual ASCII representation and logo and displays in the header when the chatbot launches.
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Cyan;
 
@@ -45,7 +46,7 @@ namespace CyberAwarenessBot
                 Console.WriteLine(line);
                 System.Threading.Thread.Sleep(80); // Slightly faster animation
             }
-
+            // Visual structure of the interface to enhaance the chatbots appearance with color text, spacing and borders.
             Console.ResetColor();
             Console.ForegroundColor = ConsoleColor.White;
             // Padded with spaces to center it under the logo
