@@ -12,6 +12,7 @@ namespace CyberAwarenessBot
             try
             {
                 // The greeting.wav is the name of the video cue flie and handles the visuals of the user experience.
+                // Using my personlized voice I made the bot sound more 'human like' and interactive.
                 SoundPlayer player = new SoundPlayer("greeting.wav");
                 player.Play();
             }
