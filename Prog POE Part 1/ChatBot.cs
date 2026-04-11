@@ -92,6 +92,7 @@ namespace CyberAwarenessBot
             UIHelper.TypeMessage(" 3. Avoid suspicious links and attachments like zip. or .exe files. Attackers use fake messages to trick their victims into giving away sensitive information.");
             UIHelper.TypeMessage(" 4. Avoid using the same passwords on every application. If it is easy for you to login quickly it will be easier for the attacker.  Make sure to update your passwords at least every 6 months and choose appropriate statements instead of single or two-worded names that you know you won't forget!");
             Console.WriteLine("========================================================================================================================\n");
+        }
         private void ShowPasswordAdvice()
         {
             // This is the method for when a user types in the option for password advice.
