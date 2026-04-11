@@ -1,16 +1,16 @@
 ﻿# Guardians of your Intergrity - CyberAwarenessBot
 
 ## Project Description
-A C# console application developed to provide interactive cybersecurity awareness. It features specialized modules for Phishing, Password Security, and Safe Browsing.
+I developed a C# command-line application that functions as a basic Cybersecurity Awareness Chatbot to provide an interactive cybersecurity awareness to all South Africans. It features specialized modules for Phishing emails, Password Security, and Safe Browsing ( recognising suspicious links ) in a meaningful way to educate users on various forms of cyberattacks that targets individuals, businesses and governmnet institutions.
 
 # Features
-- ##Multimedia##: A Custom voice greeting ('greeting.wav') and ASCII art logo.
-- ##Enhanced UI##: Custom typing effects, color-coded status, and professional dividers.
+- ##Multimedia##: A Personalized voice greeting ('greeting.wav') and a ASCII art logo called Guardians of your Integrity - SA's leading CyberAwarenessBot.
+- ##Enhanced UI##: Theres a custom typing feature desplaying a color-coded status, and professional dividers.
 - ##Continuous Integration: Automated build testing via GitHub Actions.
 
 ## Setup & Usage Instructions
-1. Clone the respository to your local machine.
-2. Ensure the 'greeting.wav' file is located in the root directory.
+1. I cloned the respository to my local machine.
+2. The 'greeting.wav' file is located in the root directory.
 3. Open the 'Prog Poe Part 1.sln' file in the Visual Studio.
 4. Press ##F5## or click ##Start## to run the application.
 
