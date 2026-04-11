@@ -10,7 +10,8 @@ namespace CyberAwarenessBot
     {
         static void Main(string[] args)
         {
-            // 1. This displays the multimedia and visual setup ( from UIHelper.cs )
+            //This is the main entry point of the video cue, using a personalized video that was made by me in the sound recorder application.
+            // 1. This displays the multimedia and visual setup ( from UIHelper.cs that keeps the code clean and professional.)
             UIHelper.PlayGreetingAudio();
             UIHelper.DisplayLogo();
 
