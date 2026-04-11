@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace CyberAwarenessBot
 {
+    // This is the logic of the CyberAwareness Chatbot.
     public class ChatBot
     {
         public string? Username { get; set; }
 
         public void StartConversation()
         {
+            // This is the statement that is said in the voice greeting.
             UIHelper.TypeMessage(" Hello! I am your Cybersecurity Awareness Assistant.");
             UIHelper.TypeMessage(" Before we begin, what is your name? ");
 
@@ -35,6 +37,7 @@ namespace CyberAwarenessBot
                 string? input = Console.ReadLine()?.ToLower().Trim();
 
                 if (string.IsNullOrEmpty(input)) continue;
+                // I used the 'switch' statement and 'if' logic to handle the users response choices such as Phishing, Password, and Safe Browsing.
                 switch (input)
                 {
                     case "how are you?":
