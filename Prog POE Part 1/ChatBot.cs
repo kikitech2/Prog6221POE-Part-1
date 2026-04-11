@@ -85,13 +85,14 @@ namespace CyberAwarenessBot
         }
         private void ShowPhishingAdvice()
         {
-           // This is the method for when a user types in the option for phishing.
+            // This is the method for when a user types in the option for phishing.
             UIHelper.TypeMessage("\n --- Phishing Awareness ---");
             UIHelper.TypeMessage(" 1. Look out for messages that display 'Urgent' in them as this can intimidate the user to react emotionally as scammers want you to panic.");
             UIHelper.TypeMessage(" 2. A User might receive an email from a bank and believe its real because it comes from a recognised brand. Do not click the message or link immediately. Verify the sender. A bank will never ask for your PIN via email. ");
             UIHelper.TypeMessage(" 3. Avoid suspicious links and attachments like zip. or .exe files. Attackers use fake messages to trick their victims into giving away sensitive information.");
             UIHelper.TypeMessage(" 4. Avoid using the same passwords on every application. If it is easy for you to login quickly it will be easier for the attacker.  Make sure to update your passwords at least every 6 months and choose appropriate statements instead of single or two-worded names that you know you won't forget!");
             Console.WriteLine("========================================================================================================================\n");
+        }
         private void ShowPasswordAdvice()
         {
             // This is the method for when a user types in the option for password advice.
