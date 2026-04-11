@@ -11,7 +11,7 @@ namespace CyberAwarenessBot
         {
             try
             {
-                // The greeting.wav is the name of the flie.
+                // The greeting.wav is the name of the video cue flie and handles the visuals of the user experience.
                 SoundPlayer player = new SoundPlayer("greeting.wav");
                 player.Play();
             }
