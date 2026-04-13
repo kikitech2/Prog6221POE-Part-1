@@ -5,7 +5,7 @@ I developed a C# command-line application that functions as a basic Cybersecurit
 
 # Features
 - ##Multimedia##: A Personalized voice greeting ('greeting.wav') and a ASCII art logo called Guardians of your Integrity - SA's leading CyberAwarenessBot.
-- ##Enhanced UI##: Theres a custom typing feature desplaying a color-coded status, and professional dividers.
+- ##Enhanced UI##: Theres a custom typing feature displaying a color-coded status, and professional dividers.
 - ##Continuous Integration: Automated build testing via GitHub Actions.
 
 ## Setup & Usage Instructions
