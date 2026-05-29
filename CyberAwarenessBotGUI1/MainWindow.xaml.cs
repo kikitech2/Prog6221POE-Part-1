@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic; // Required collection namespace for using the generic List structure
+using System.Collections.Generic; // The generic collection namespace is for the use of the generic List structure.
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -14,8 +14,8 @@ using System.Windows.Shapes;
 namespace CyberAwarenessBotGUI1
 {
     /// <summary>
-    /// Interaction logic class managing the desktop window visual form component.
-    /// Implements event handlers to manage UI state changes and input processing.
+    /// Cybersecurity Awareness Chatbot Graphical User Interface Interaction logic class manages the desktop window visual to make the system more engaging and user-friendly.
+    /// Question 1. GUI design and Implementation of event handlers to manage UI state changes and input processing when a user interacts with the bot.
     /// </summary>
     public partial class MainWindow : Window
     {
