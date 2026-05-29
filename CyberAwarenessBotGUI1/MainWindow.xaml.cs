@@ -15,29 +15,27 @@ namespace CyberAwarenessBotGUI1
 {
     /// <summary>
     /// Cybersecurity Awareness Chatbot Graphical User Interface Interaction logic class manages the desktop window visual to make the system more engaging and user-friendly.
-    /// Question 1. GUI design and Implementation of event handlers to manage UI state changes and input processing when a user interacts with the bot.
+    /// Question 1. GUI design and Implementation - of event handlers to manage UI state changes and input processing when a user interacts with the bot.
     /// </summary>
     public partial class MainWindow : Window
     {
-        // TRADITIONAL MEMORY STORAGE: Instantiates a private List collection to retain string records
-        // of user inputs sequentially throughout the active execution runtime session.
+        // Question 5. Memory and recall - This instantiates a private List collection to remember the conversation history when
+        // users information are put throughout the chatbot. This feature makes cybersecurity tips more engaging to assist personalised responses by the user.
         private List<string> conversationHistory = new List<string>();
 
-        // STATE CONTROLLER VARIABLE: Tracks identity profile assignment. 
-        // Initialized as an empty string to determine whether the program is in Phase 1 or Phase 2.
+        // The empty string allows a user to enter their name to make their personalised responses more meaningful.
+        // Initializes the empty string to determine whether the program is in Phase 1 or Phase 2.
         private string userName = "";
 
         /// <summary>
-        /// Default window constructor method. Executes automatically upon application creation.
+        /// Default window constructor executes automatically upon application creation.
         /// Loads XAML layout elements and triggers external audio greeting sequences.
         /// </summary>
         public MainWindow()
         {
             // Crucial WPF framework method that parses XAML markup to instantiate visual layout elements
             InitializeComponent();
-
-            // EXCEPTION HANDLING BLOCK: Safely executes external project dependencies 
-            // without risking full process termination if hardware paths or sound resources fail.
+            
             try
             {
                 // Voice implementation in the GUI application.
@@ -45,7 +43,7 @@ namespace CyberAwarenessBotGUI1
             }
             catch (Exception ex)
             {
-                // Graceful failure block to catch and suppress audio I/O exceptions safely
+            
             }
 
             // Append foundational visual introduction parameters directly into the TextBox control console
