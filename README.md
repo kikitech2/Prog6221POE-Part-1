@@ -50,6 +50,7 @@ For Part 2 I developed a Graphical User Interface (GUI) that handles the dynamic
 11. I produced a video presentation of my code for Part 2 demonstrating a full explanation of my code running and provided an unlisted Youtube video with my personalized voice.
 
 ## ASCII Art Image
+<img width="502" height="378" alt="image" src="https://github.com/user-attachments/assets/27520e27-92e2-4c86-9078-f99295fc012c" />
 
   
 ## Youtube link
