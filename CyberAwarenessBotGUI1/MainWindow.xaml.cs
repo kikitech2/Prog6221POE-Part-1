@@ -67,17 +67,13 @@ namespace CyberAwarenessBotGUI1
                 // Normalization step to ensure case-insensitive sequence checking operations
                 string lowerMessage = userMessage.ToLower();
 
-                // ==========================================
-                // CONTROL LAYER: SYSTEM COMMAND PROCESSOR
-                // ==========================================
-
                 // Intercepts structural utility inputs explicitly standing standalone to execute framework instructions
                 if (lowerMessage == "/clear" || lowerMessage == "clear")
                 {
                     txtChatLog.Clear();
                     txtChatLog.AppendText("System: Chat log terminal cleared successfully.\n\n");
                     txtUserInput.Clear();
-                    return; // Early escape statement to bypass memory logging and response evaluation
+                    return; 
                 }
 
                 if (lowerMessage == "/exit" || lowerMessage == "exit")
@@ -89,9 +85,8 @@ namespace CyberAwarenessBotGUI1
                 // DATA PERSISTENCE: Captures and saves the user transaction index inside the RAM collection list
                 conversationHistory.Add(userMessage);
 
-                // ==========================================
-                // FLOW LAYER PHASE 1: IDENTITY REGISTRATION
-                // ==========================================
+                // Phase 1 of identifying the user
+
                 if (string.IsNullOrEmpty(userName))
                 {
                     // Registers the absolute first valid sequence transmission directly as the user identity profile name
@@ -110,9 +105,8 @@ namespace CyberAwarenessBotGUI1
                     return; // Short-circuit route to block identity profiles from scanning cybersecurity warnings
                 }
 
-                // ==========================================
-                // FLOW LAYER PHASE 2: THREAT ENGINE SCANNING
-                // ==========================================
+               
+                // Phase 2 scans threats
 
                 // Format output view string using localized user instance identities dynamically
                 txtChatLog.AppendText(userName + ": " + userMessage + "\n");
@@ -120,7 +114,7 @@ namespace CyberAwarenessBotGUI1
                 // Working variable placeholder block utilized to host selected dynamic threat messaging strings
                 string botResponse = "";
 
-                // SEQUENTIAL CONDITIONAL ARCHITECTURE: Validates user threat parameters sequentially
+                // Question 2, 3 & 4: Validates user threat parameters sequentially. Keyword recognition, Random responses and conversation flow
                 if (lowerMessage.Contains("phishing") || lowerMessage.Contains("email") || lowerMessage.Contains("link"))
                 {
                     botResponse = "Bot Warning: Phishing detected! Never click on suspicious links or provide personal details in unsolicited emails. Always verify the sender's address.";
@@ -158,9 +152,9 @@ namespace CyberAwarenessBotGUI1
                 // Append parsed threat response data onto the screen control view layout container
                 txtChatLog.AppendText(botResponse + "\n");
 
-                // ==========================================
-                // METRIC LAYER: SENTIMENT TRACKING ENGINE
-                // ==========================================
+              
+                // Question 6: Sentiment dection engine
+              
                 string detectedSentiment = "Neutral / Inquiring"; // Establishes baseline sentiment structural value
 
                 // Sequential scanning logic mapping user word triggers to emotional distress thresholds
@@ -184,7 +178,7 @@ namespace CyberAwarenessBotGUI1
         }
 
         /// <summary>
-        /// Hardware key intercept method checking inputs inside the interactive textbox field property.
+        /// Question 7 & 8: Hardware key intercept method checking inputs inside the interactive textbox field property.
         /// Captures user keyboard events to allow convenient 'Enter Key' processing logic loops.
         /// </summary>
         private void TxtUserInput_KeyDown(object sender, KeyEventArgs e)
