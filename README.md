@@ -21,8 +21,21 @@ I developed a C# command-line application that functions as a basic Cybersecurit
 <img width="938" height="615" alt="image" src="https://github.com/user-attachments/assets/8f35ee9a-ef5c-4e45-8c4c-268bbfe02921" />
 
 ## Project Description - PART 2
+For Part 2 I developed a Graphical User Interface (GUI) that handles the dynamic responses, sentiment detection and Memory storage of the appliaction. I expanded my Cybersecurity Awareness Chatbot named "Guardians of Your Integrity" to engage more with the user to recall information shared between the bot and the user and have implemented a sentiment detection that allows the chatbot to match the various tones of the user to make it more user-friendly and simulates a natural conversation flow that is interactive until the user decides to exit the application.
 
-
+# Features
+- ##Multimedia##: The Personalized voice greeting ('greeting.wav') has been incorporated into the GUI Interface and also displays a text of the voice greeting for users that suffer from any hearing or chooses to understand subtitles better. The ASCII art logo called Guardians of your Integrity - SA's leading CyberAwarenessBot.
+- ##Enhanced UI##: Theres a custom typing feature displaying a color-coded status, and professional dividers.
+- ##Continuous Integration##: Automated build testing via GitHub Actions.
+- ##GUI Design##: Is neatly situated with proper spacing and design elements. The logo is in a bright Cyan color that is supported with a dark background to give that galaxy appeal and makes the logo stand out better.
+- ##Implementation##: The ASCII art is translated effectively into the GUI application.
+- ##Keyword Recogintion##: The chatbot is designed to recoginse and respond to specific related topics and general inquiries. For example: "phishing", "passwords", "2fa", "mfa", "randsomeware", "spyware", etc. This responses provide guidance on each personalised response made by the user.
+- ##Random Responses##: The chatbot selects one of several informative responses and uses the List collection method to manage these responses effectively to keep interactions varied and engaging.
+- ##Conversation Flow##: The chatbot maintains the flow of converations between the user and the bot so if there is an instance that the user is confused, misspelling or asks for more details the chatbot is designed to continue the current topic and not restart or end the program.
+- ##Memory and Recall##: The memory feature allows the chatbot to remeber users information that can be used later in the conversation as it is designed to store certain information provided by the user.
+- ##Sentiment Detecion##: Chatbot is designed to create empathetic interactions between the user when they express emotions like "scared", "safe", "devasted", etc. To enable words of encouragement as well as advising them to stay calm under pressure about a certain topic.
+- ##Error Handling##: The chatbot is designed function smoothly when it encounters unexpected inputs and finds it hard to read keywords.Therefore the program has default responses and keywords for those instances to avoid the program from crashing.
+  
 ## Youtube link
 YOUTUBE LINK : https://youtu.be/gvz8vB6jWzQ
 
